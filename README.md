@@ -1,4 +1,4 @@
-emacsdotd
+emacs.d
 =========
 
 my emacs conf
