@@ -1,0 +1,8 @@
+(require 'auto-complete)
+(require 'auto-complete-config)
+(global-auto-complete-mode t)
+(setq ac-auto-start t)
+(setq ac-dwim t)
+(dolist (mode '(php-mode js3-mode))
+  (add-to-list 'ac-modes mode))
+(provide 'init-auto-complete)
