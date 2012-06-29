@@ -6,7 +6,7 @@
 ;; custom.el
 (setq custom-file "~/.emacs.d/custom.el")
 
-;; packages on elpa.gnu.org
+;; init packages
 (require 'init-site-lisp)
 (require 'init-elpa)
 (require 'init-ido)
@@ -21,6 +21,10 @@
 
 ;; miscs
 (require 'init-misc)
+(require 'init-look)
 
 ;; customizations
 (load custom-file)
+
+;; End of buffer
+(global-set-key (kbd "C-/") 'undo)
