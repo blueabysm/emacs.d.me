@@ -6,7 +6,7 @@
 (setq ido-default-buffer-method 'selected-window)
 
 ;; ido completion in M-x, maybe slow
-;; (smex-initialize)
-;; (global-set-key "\M-x" 'smex)
+(smex-initialize)
+(global-set-key "\M-x" 'smex)
 
 (provide 'init-ido)
