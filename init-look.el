@@ -4,7 +4,7 @@
 (set-face-background 'mode-line "#FFFFFF")
 (set-face-foreground 'mode-line "#003300")
 
-;; blue comments
-'(font-lock-comment-face ((t (:foreground "blue"))))
+;; region background
+(set-face-background 'region "#444444")
 
 (provide 'init-look)
