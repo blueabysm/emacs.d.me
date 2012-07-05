@@ -5,4 +5,5 @@
 /tramp
 /TODO
 *.elc
+/site-lisp/package
 
