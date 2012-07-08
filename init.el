@@ -14,7 +14,7 @@
 ;; stand alone key bindings
 (require 'init-keybindings)
 (require 'init-php)
-(require 'init-sql)
+;;(require 'init-sql)
 (require 'init-misc)
 (require 'init-look)
 
