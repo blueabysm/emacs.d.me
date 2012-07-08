@@ -1,0 +1,3 @@
+[submodule "site-lisp/sql-completion"]
+	path = site-lisp/sql-completion
+	url = git@github.com:blueabysm/sql-completion.git
