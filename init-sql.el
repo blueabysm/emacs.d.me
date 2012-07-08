@@ -1,4 +1,12 @@
 (require 'sql-completion)
+(setq sql-interactive-mode-hook
+      (lambda ()
+        (define-key sql-interactive-mode-map "TAB" comint-dynamic-complete)
+        (sql-mysql-completion-init)))
+
+;; save database schema
+(require 'desktop)
+(add-to-list 'desktop-globals-to-save 'sql-mysql-schema)
 
 ;; frequently used pools
 (setq sql-connection-alist
