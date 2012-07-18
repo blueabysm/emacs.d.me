@@ -14,9 +14,11 @@
 ;; stand alone key bindings
 (require 'init-keybindings)
 (require 'init-php)
+;;(require 'init-jdee)
 ;;(require 'init-sql)
 (require 'init-misc)
 (require 'init-look)
+(require 'init-abbrev)
 
 ;; customizations
 (load custom-file)

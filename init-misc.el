@@ -15,4 +15,7 @@
 ;; disable menu bar ------------------------------------------------
 ;; (menu-bar-mode 0)
 
+;; plist mode (for osx)
+(add-to-list 'auto-mode-alist '("\\.plist$" . nxml-mode))
+
 (provide 'init-misc)
