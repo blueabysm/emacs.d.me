@@ -36,6 +36,17 @@
     ("sop" "System.out.println" nil 0)
    ))
 
+(define-abbrev-table 'php-mode-abbrev-table
+  '(
+    ("pb" "public" nil 0)
+    ("pc" "public class" nil 0)
+    ("pr" "private" nil 0)
+    ("pf" "public function" nil 0)
+    ("psf" "public static function" nil 0)
+    ("pt" "protected" nil 0)
+    ("ud" "unic\debug::dump" nil 0)
+    ))
+
 (define-abbrev-table 'lisp-mode-abbrev-table '())
 
 (define-abbrev-table 'objc-mode-abbrev-table '())
