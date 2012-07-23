@@ -18,4 +18,7 @@
 ;; plist mode (for osx)
 (add-to-list 'auto-mode-alist '("\\.plist$" . nxml-mode))
 
+;; abbrev_defs
+(add-to-list 'auto-mode-alist '("abbrev_defs" . lisp-mode))
+
 (provide 'init-misc)

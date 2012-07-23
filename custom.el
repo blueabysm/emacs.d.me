@@ -23,6 +23,7 @@
  '(font-lock-comment-delimiter-face ((t (:inherit font-lock-comment-face))))
  '(font-lock-comment-face ((t (:foreground "blue"))))
  '(font-lock-constant-face ((t (:foreground "brightred"))))
+ '(font-lock-doc-face ((t (:inherit font-lock-string-face :foreground "blue"))))
  '(font-lock-function-name-face ((t (:foreground "brightblue"))))
  '(font-lock-keyword-face ((t (:foreground "brightyellow"))))
  '(font-lock-string-face ((t (:foreground "brightgreen")))))
