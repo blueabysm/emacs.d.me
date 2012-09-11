@@ -34,7 +34,17 @@
     ("psm" "public static void main (String[] args)" nil 0)
     ("pt" "protected" nil 0)
     ("sop" "System.out.println" nil 0)
-   ))
+    ))
+
+(define-abbrev-table 'php-mode-abbrev-table
+  '(
+    ("pb" "public" nil 0)
+    ("pc" "public class" nil 0)
+    ("pr" "private" nil 0)
+    ("ps" "public static" nil 0)
+    ("psf" "public static function" nil 0)
+    ("pt" "protected" nil 0)
+    ))
 
 (define-abbrev-table 'lisp-mode-abbrev-table '())
 

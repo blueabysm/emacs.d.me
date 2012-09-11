@@ -64,5 +64,6 @@
 (require-package 'smex)
 (require-package 'w3)
 (require-package 'wgrep)
+(require-package 'yaml-mode)
 
 (provide 'init-elpa)

@@ -19,6 +19,9 @@
 (require 'init-misc)
 (require 'init-look)
 (require 'init-abbrev)
+(require 'init-utils)
+(require 'init-ruby-mode)
+(require 'init-rails)
 
 ;; customizations
 (load custom-file)
