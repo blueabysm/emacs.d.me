@@ -28,3 +28,13 @@
  '(font-lock-function-name-face ((t (:foreground "brightblue"))))
  '(font-lock-keyword-face ((t (:foreground "brightyellow"))))
  '(font-lock-string-face ((t (:foreground "brightgreen")))))
+
+;; recode-region
+(defun recode-region (start end &optional coding-system)
+  "Replace the region with a recoded text."
+  (interactive "r\n\zCoding System (utf-8): ")
+  (setq coding-system (or coding-system 'utf-8))
+  (let ((buffer-read-only nil)
+        (text (buffer-substring start end)))
+    (delete-region start end)
+    (insert (decode-coding-string (string-make-unibyte text) coding-system))))
