@@ -22,6 +22,7 @@
 (require 'init-utils)
 (require 'init-ruby-mode)
 (require 'init-rails)
+(require 'init-applescript-mode)
 
 ;; customizations
 (load custom-file)
