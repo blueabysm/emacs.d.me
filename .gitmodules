@@ -1,8 +1,8 @@
 [submodule "site-lisp/sql-completion"]
-           path = site-lisp/sql-completion
-           url = git@github.com:blueabysm/sql-completion.git
-           ignore = dirty
+       path = site-lisp/sql-completion
+       url = git@github.com:blueabysm/sql-completion.git
+       ignore = dirty
 [submodule "site-lisp/applescript-mode"]
-           path = site-lisp/applescript-mode
-           url = git://github.com/ieure/applescript-mode.git
-           ignore = untracked
+       path = site-lisp/applescript-mode
+       url = git://github.com/ieure/applescript-mode.git
+       ignore = untracked
