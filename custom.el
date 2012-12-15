@@ -8,9 +8,9 @@
 
 ;; auto indent = 4
 (add-hook 'lisp-mode-hook '(lambda ()
-			     (local-set-key (kbd "RET") 'newline-and-indent)))
+                             (local-set-key (kbd "RET") 'newline-and-indent)))
 (add-hook 'c-mode-common-hook '(lambda ()
-				 (local-set-key (kbd "RET") 'newline-and-indent)))
+                                 (local-set-key (kbd "RET") 'newline-and-indent)))
 (setq-default indent-tabs-mode nil)
 (setq-default c-basic-offset 4)
 (setq ruby-indent-level 4)
@@ -38,3 +38,6 @@
         (text (buffer-substring start end)))
     (delete-region start end)
     (insert (decode-coding-string (string-make-unibyte text) coding-system))))
+
+;; key-bindings
+(global-set-key (kbd "C-/") 'undo)

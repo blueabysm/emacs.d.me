@@ -11,6 +11,7 @@
 (require 'init-ido)
 (require 'init-auto-complete)
 (require 'init-uniquify)
+(require 'init-editing-utils)
 ;; stand alone key bindings
 (require 'init-keybindings)
 (require 'init-php)
@@ -24,8 +25,11 @@
 (require 'init-rails)
 (require 'init-applescript-mode)
 
+(require 'init-lisp)
+(require 'init-slime)
+(require 'init-common-lisp)
+
 ;; customizations
 (load custom-file)
 
 ;; End of buffer
-(global-set-key (kbd "C-/") 'undo)
